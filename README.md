@@ -1,10 +1,18 @@
 # GNP Foundation — Case-for-Change Evidence Pipeline
 
-**How to run it (one line, from inside this folder):**
+Note: Run the following commands from the project folder:
+
+If running the app for the first time, set up the Python environment and Streamlit dependency:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install streamlit
+```
+**Then launch the application using the one-line command:
 ```
 pip install -r requirements.txt && streamlit run app.py
 ```
-Then open the local URL Streamlit prints (default `http://localhost:8501`).
+The application will open in your browser at the local Streamlit URL provided in the terminal.
 
 No API keys, no paid services. Everything — parsing, theming, quote
 verification, fact-pack checks, and Q&A — runs locally and deterministically,
