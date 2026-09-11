@@ -33,6 +33,6 @@ python run_pipeline_cli.py
 
 - **Verification is a second, independent extraction, not a checklist.**
 - **The fact pack's "not audited" disclosure is treated as an instruction, not a formality** — two reconciliation checks exist specifically because of that line.
-- **Retrieval, not generation, answers questions** — no LLM in the Q&A answer path, zero hallucination risk.
+- **Retrieval, not generation, answers questions** — No generative answer synthesis in the answer path; responses are returned from source-grounded records.
 - **Interview 4 (Head of Org Effectiveness) has zero quoted statements in the source** — no fabricated quote fills that gap.
 - **Every module resolves paths relative to its own file location**, and `qa_engine.py` specifically never depends on a prior script having been run — it is self-sufficient by design.
